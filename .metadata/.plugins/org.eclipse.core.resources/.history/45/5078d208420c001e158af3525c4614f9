@@ -1,0 +1,2 @@
+env.running=developingdefault 
+spring.profiles.active=prod

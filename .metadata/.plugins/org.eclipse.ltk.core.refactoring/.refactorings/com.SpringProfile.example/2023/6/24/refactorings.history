@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.SpringProfile.example/src/main/resources/application-aq.properties&apos; to &apos;application-qa.properties&apos;" description="Rename resource &apos;application-aq.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/application-aq.properties" name="application-qa.properties" stamp="1686916435102" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LoginConfiguration.java&apos; to &apos;SchoolRoleManger/src/main/java/com.example.car&apos;&#x0D;&#x0A;- Original project: &apos;SpringSecurity_Application&apos;&#x0D;&#x0A;- Destination element: &apos;SchoolRoleManger/src/main/java/com.example.car&apos;&#x0D;&#x0A;- Original element: &apos;com.example.test.LoginConfiguration.java&apos;" description="Copy compilation unit" destination="=SchoolRoleManger/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.car" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.test{LoginConfiguration.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1686393877547" units="1" version="1.0"/>
+</session>

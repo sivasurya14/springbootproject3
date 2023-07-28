@@ -1,0 +1,74 @@
+package com.giassi.microservice.demo2.rest.users.entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GenericGenerator;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="permissions")
+
+public class Permission {
+
+    public Permission(Long id, String permission) {
+        this.id = id;
+        this.permission = permission;
+    }
+
+    public Permission() {
+		super();
+	}
+    
+	@Id
+    @GeneratedValue(strategy= GenerationType.AUTO, generator="native")
+    @GenericGenerator(name = "native", strategy = "native")
+    @Column(name="id")
+    private Long id;
+
+    @Column(name="permission", nullable = false)
+    private String permission;
+
+    // enabled as default
+    @Column(name="enabled")
+    private boolean enabled = true;
+
+    @Column(name="note")
+    private String note;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getPermission() {
+		return permission;
+	}
+
+	public void setPermission(String permission) {
+		this.permission = permission;
+	}
+
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+
+	public String getNote() {
+		return note;
+	}
+
+	public void setNote(String note) {
+		this.note = note;
+	}
+    
+    
+
+}
